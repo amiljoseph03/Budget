@@ -45,13 +45,34 @@
   background: #f9fbff;
 }
 .alert-box {
-  background: #fff;
-  padding: 12px;
-  border-radius: 20px;
-  margin: 20px 0;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: #f5f8ff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  width: fit-content; /* shrink to content width */
 }
+
+.alert-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FF831A;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+}
+
+.alert-text {
+  flex-grow: 1;
+}
+
+
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
