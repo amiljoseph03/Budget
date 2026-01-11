@@ -1,0 +1,72 @@
+.login-wrapper{
+  display:flex;
+  height:100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.left-panel{
+  width:50%;
+  position:relative;
+  overflow:hidden;
+}
+
+.left-panel img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.brand{
+  position:absolute;
+  top:20px;
+  left:20px;
+  font-weight:bold;
+}
+
+.right-panel{
+  width:50%;
+  position:relative;
+  padding:40px;
+}
+
+.top-help{
+  position:absolute;
+  top:20px;
+  right:40px;
+  font-size:14px;
+}
+
+.lang{
+  border:none;
+  margin-left:10px;
+}
+
+.login-box{
+  max-width:400px;
+  margin:120px auto;
+}
+
+.password-box{
+  position:relative;
+}
+
+.password-box .show{
+  position:absolute;
+  right:12px;
+  top:10px;
+  font-size:12px;
+  cursor:pointer;
+  color:#0d6efd;
+}
+
+.options{
+  display:flex;
+  justify-content:space-between;
+  font-size:13px;
+}
+
+.create{
+  text-align:center;
+  margin-top:20px;
+  font-size:13px;
+}
